@@ -9,3 +9,9 @@ There is a linux package which provides utilities for working with CAN interface
 There look to be two solid Python libraries which provide access to CAN interfaces
 - [python-can](https://github.com/hardbyte/python-can)
 - [socketcan](https://gitlab.com/Menschel/socketcan)
+
+
+There are some other repos on Github dedicated to collecting CAN resources
+- [awesome-canbus](https://github.com/iDoka/awesome-canbus)
+- [vehicle-security](https://github.com/wtsxDev/Vehicle-Security)
+
