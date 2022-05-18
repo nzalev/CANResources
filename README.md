@@ -15,3 +15,27 @@ There are some other repos on Github dedicated to collecting CAN resources
 - [awesome-canbus](https://github.com/iDoka/awesome-canbus)
 - [vehicle-security](https://github.com/wtsxDev/Vehicle-Security)
 
+## OBD2 Pinout
+[]()|[]()|[]()|[]()|[]()|[]()|[]()|[]()| 
+:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 1 | 2 | 3 | G | G | 6 | 7 | 8 |
+| 9 | 10| 11| 12| 13| 14| 15|+12v|
+
+Pin   | Purpose
+:---: | :---
+1 | Manufacturer Defined
+2 | J1850 (PWM +)
+3 | Manufacturer Defined
+4 | Ground
+5 | Ground
+6 | CAN High
+7 | KWP K
+8 | Manufacturer Defined
+9 | Manufacturer Defined
+10| PWM -
+11| Manufacturer Defined
+12| Manufacturer Defined
+13| Manufacturer Defined
+14| CAN Low
+15| KWP L
+16| +12V
