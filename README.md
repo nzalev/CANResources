@@ -1,8 +1,5 @@
 # CAN Resources
 
-The [Uwindsor P1 page](https://github.com/UWindsor/CarHackingResearch) contains some instructions for the P1 and some research papers. There is also [P1 documentation](https://docs.macchina.cc/p1-docs/getting-started)
-
-[Pocket Beagle pin configs](https://github.com/beagleboard/pocketbeagle/wiki/Peripherals#can)
 
 The kernel level documentation on SocketCAN and CAN interfaces is [here](https://www.kernel.org/doc/html/latest/networking/can.html). This can be used to communicate via the CAN interface through raw sockets in C.
 
@@ -16,6 +13,15 @@ There look to be two solid Python libraries which provide access to CAN interfac
 There are some other repos on Github dedicated to collecting CAN resources
 - [awesome-canbus](https://github.com/iDoka/awesome-canbus)
 - [vehicle-security](https://github.com/wtsxDev/Vehicle-Security)
+
+
+## P1 ODB2 Reader
+
+The [Uwindsor P1 page](https://github.com/UWindsor/CarHackingResearch) contains some instructions for the P1 and some research papers. There is also [P1 documentation](https://docs.macchina.cc/p1-docs/getting-started)
+
+[Pocket Beagle pin configs](https://github.com/beagleboard/pocketbeagle/wiki/Peripherals#can)
+
+The P1 uses TJA1051 transceivers for CAN and TJA1027 transceivers for LIN/K-Line
 
 ## OBD2 Pinout
 []()|[]()|[]()|[]()|[]()|[]()|[]()|[]()| 
